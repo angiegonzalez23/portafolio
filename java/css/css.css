@@ -443,8 +443,9 @@ font-family: 'Reenie Beanie', cursive;
   }
     .menu{
        position: absolute; 
-   background: #fff;
-        width: 20%;
+  background: #B079F2;
+        width: 45%;
+		height: 600px;
          margin-left: -60%;
         transition: all 0.5s;
     }
@@ -459,6 +460,20 @@ font-family: 'Reenie Beanie', cursive;
          border-top:1px solid #fff; 
         
     }
+	
+	
+	.menu li ul{
+	display: none;
+	position: absolute;
+	width: 170px;
+	background: #B079F2;
+}
+
+.menu li:hover > ul{
+display: block;
+ background:rgba(44,116,207,0.5);
+}
+
     
   #btn-menu:checked ~ .menu {
         margin: 0px;
