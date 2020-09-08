@@ -94,13 +94,13 @@ header label:hover{ /* accion en el header*/
 .menu li ul{
 	display: none;
 	position: absolute;
-	width: 170px;
+	width: 290px;
 	background: #B079F2;
 }
 
 .menu li:hover > ul{
-	
 display: block;
+
 }
 .porta{
 	

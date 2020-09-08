@@ -80,6 +80,20 @@ header label:hover{
     text-decoration: none;
     
 }
+
+.menu li ul{
+	display: none;
+	position: absolute;
+	width: 290px;
+	background: #B079F2;
+}
+
+.menu li:hover > ul{
+display: block;
+
+}
+
+
 nav{
     background: #B079F2;
     height: 80px;
